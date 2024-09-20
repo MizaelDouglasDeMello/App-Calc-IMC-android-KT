@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background">#250367</color>
+    <color name="primary">#571CC1</color>
+    <color name="primary_variant">#493076</color>
+
+    <color name="abaixoDoPeso">#0027FF</color> <!-- Laranja -->
+    <color name="normal">#008000</color> <!-- Verde -->
+    <color name="sobrepeso">#FFFF00</color> <!-- Amarelo -->
+    <color name="obsidade">#FFA500</color> <!-- Laranja -->
+    <color name="obesidadeFatal">#FF0000</color> <!-- Vermelho -->
+</resources>
