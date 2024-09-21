@@ -37,9 +37,9 @@ class ResultActivity : AppCompatActivity() {
 
             val result = when {
                 imc < 18.5 -> "Você está Abaixo do peso, Seu IMC é: %.2f".format(imc)
-                imc in 18.5..24.9 -> "Você está pesando normal, Seu IMC é: %.2f".format(imc)
+                imc in 18.5..24.9 -> "Seu peso está normal, Seu IMC é: %.2f".format(imc)
                 imc in 25.0..29.9 -> "Você está com Sobrepeso, Seu IMC é: %.2f".format(imc)
-                imc in 30.0..34.9 -> "Você está com Obesidade, Seu IMC é: %.2f".format(imc)
+                imc in 30.0..39.9 -> "Você está com Obesidade, Seu IMC é: %.2f".format(imc)
                 else -> "Você está com Obesidade grave, Seu IMC é: %.2f".format(imc)
             }
 
